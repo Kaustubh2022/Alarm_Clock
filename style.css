@@ -1,0 +1,28 @@
+#alarm-container{
+
+    height:400px;
+    width: 300px;
+    border: 1px solid black;
+    margin:auto;
+    border-radius: 20%;
+    margin-top:5%;
+}
+
+#current-time-container{
+    box-sizing: border-box;
+    width:70%;
+    height:15%;
+    /* border: 1px solid black; */
+    margin:auto;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    padding: 10px;
+
+}
+
+#current-time{
+   text-align: center;
+    font-size: 1.8rem;
+    font-family: sans-serif;
+}
+
