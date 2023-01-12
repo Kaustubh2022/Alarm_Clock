@@ -1,11 +1,26 @@
+
 #alarm-container{
 
     height:400px;
-    width: 300px;
-    border: 1px solid black;
+    width: 350px;
+    border: 3px solid black;
     margin:auto;
+    margin-top:2%;
+    background-color: #4610e35c;
     border-radius: 20%;
-    margin-top:5%;
+
+}
+
+#clock{
+  
+    height:200px;
+    width: 247px;
+    background-image: url('./assets/clock.gif');
+    background-size: cover;
+    margin: auto;
+  
+ 
+   
 }
 
 #current-time-container{
@@ -14,15 +29,32 @@
     height:15%;
     /* border: 1px solid black; */
     margin:auto;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     margin-top: 5%;
     padding: 10px;
+    background-color: black;
+    box-shadow:0px 0px 10px black ;
+    border-radius: 33%;
+
+    
 
 }
 
 #current-time{
    text-align: center;
     font-size: 1.8rem;
-    font-family: sans-serif;
+    font-family: monospace;
+    color: white;
+    
 }
 
+#alarm-input  {
+    padding: 10px;
+    margin-left:18%;
+}
+
+#control-alarm {
+    margin: auto;
+    width: 48%;
+
+}

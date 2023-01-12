@@ -6,26 +6,42 @@
 
     <body>
 
+        <!-- To set clock image  -->
+
+        <div id = "clock"></div>
+        
+        <!-- Main cnotainer for the clock  -->
         <div id="alarm-container">
 
             <div id="current-time-container">
                 <div id = "current-time">
-                    
                 </div>
+               
 
             </div>
 
             <!--Html form to take current time input-->
-            <div id="set-alarm">
-
-                <form>
-                    <label for="enter-time">Enter time :</label>
-                    <input type="time" id="enter-time" name="enter-time"> &nbsp; &nbsp;
-
-                    <button type="submit">Set Alarm</button>
-                </form>
+            <div id="alarm-input">
+                
+                    <input type="number" id="enter-hour" name="enter-time" min="0" max="24" placeholder="HH">
+                    <input type="number" id="enter-minute" name="enter-time" min="0" max="24" placeholder="MM">
+                    <input type="number" id="enter-seconds" name="enter-time" min="0" max="24" placeholder="SS">
+               
             </div>
+
+            <div id="control-alarm">
+               
+             
+                    <button type="submit" margin="auto" id="set-alarm">Set Alarm</button>
+                
+            
+                    <button type="submit" margin="auto" id="reset-alarm">Reset Alarm</button>
+                
+                
+            </div>
+
         </div>
+        
 
         <script src="alarm.js"></script>
     </body>
