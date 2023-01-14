@@ -10,6 +10,8 @@
 
         <div id = "clock"></div>
         
+        <audio src="./assets/classic_alarm.mp3" id="myAudio"></audio>
+        
         <!-- Main cnotainer for the clock  -->
         <div id="alarm-container">
 
@@ -22,10 +24,11 @@
 
             <!--Html form to take current time input-->
             <div id="alarm-input">
+              
                 
-                    <input type="number" id="enter-hour" name="enter-time" min="0" max="24" placeholder="HH">
-                    <input type="number" id="enter-minute" name="enter-time" min="0" max="24" placeholder="MM">
-                    <input type="number" id="enter-seconds" name="enter-time" min="0" max="24" placeholder="SS">
+                    <input type="number" id="enter-hour" name="enter-time" min="0" max="24" placeholder="HH" required>
+                    <input type="number" id="enter-minute" name="enter-time" min="0" max="24" placeholder="MM" required>
+                    <input type="number" id="enter-seconds" name="enter-time" min="0" max="24" placeholder="SS" required>
                
             </div>
 
@@ -33,11 +36,17 @@
                
              
                     <button type="submit" margin="auto" id="set-alarm">Set Alarm</button>
-                
-            
-                    <button type="submit" margin="auto" id="reset-alarm">Reset Alarm</button>
-                
-                
+                    <button type="submit" margin="auto" id="reset-alarm">Reset Alarm</button>   
+            </div>
+
+
+            <!-- div to display the alredy set alarms  -->
+            <div id = 'display-alarm'>
+                <ul id = "alarm-list">
+
+                </ul>
+
+
             </div>
 
         </div>

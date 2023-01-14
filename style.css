@@ -56,5 +56,18 @@
 #control-alarm {
     margin: auto;
     width: 48%;
+    margin-bottom: 5%;
 
 }
+
+/* Display alarm section */
+
+#display-alarm{
+    height:40%;
+    width:80%;
+    border: 1px solid black;
+    margin-top: 5%;
+    margin: auto;
+}
+
+
