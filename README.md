@@ -4,7 +4,7 @@ Alarm clock using HTML CSS and Javascript
 # Structure and Styling
 Create basic structure using HTML5 and CSS
 
-#Functionalties using Javascript
+# Functionalties using Javascript
 
 
 function showCurrentTime ==> To show the current time on Alarm clock 
