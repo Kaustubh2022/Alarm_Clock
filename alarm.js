@@ -92,7 +92,7 @@ function deleteAlarm(alarmId){
 
     alarms = newAlarm;
     displayAlarms();
-    showNotification('Alarm deleted successfully');
+    
 
 }
 
