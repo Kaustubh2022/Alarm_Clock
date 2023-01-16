@@ -34,8 +34,8 @@
     margin-top: 5%;
     padding: 10px;
     background-color: black;
-    box-shadow:0px 0px 10px black ;
-    border-radius: 6%;
+    box-shadow:0px 0px 10px white ;
+    border-radius: 30px;
 
     
 
@@ -89,16 +89,17 @@ li{
     background-color: #002cc7c4;
     height: 2rem;
     box-shadow: 0 0 8px white;
+    border-radius: 15px;
 }
 
 
 #set-time{
 
-    margin-right: 6rem;
+    margin-right: 9rem;
    
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-family: monospace;
-    color: #ffc1c1;
+    color: white;
     margin-left: 2rem;
     
    
@@ -112,7 +113,30 @@ li{
 }
 .delete{
 
+    width: 59px;
     background-color: red;
     color: white;
     font-family: sans-serif;
+    margin-top: 1.5%;
+    border-radius: 13px;
+    margin: auto;
+    height: 32px;
+    box-shadow: 0 0 2px white;
+    border: 1px solid white;
+}
+
+#set-alarm{
+    color: white;
+    background-color: green;
+    border-color: transparent;
+    width: 81.16px;
+    padding: 4px;
+    border-radius: 10px;
+}
+#reset-alarm{
+    color:white;
+    background-color: red;
+    border-color: transparent;
+    padding: 4px;
+    border-radius: 10px;
 }

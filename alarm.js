@@ -116,7 +116,7 @@ function addToDom(alarm){
 
     li.innerHTML=`
     
-  
+    
     <span id = "set-time">
     ${alarm.hour}:${alarm.min}:${alarm.sec} 
     </span>
