@@ -139,7 +139,9 @@ function checkAlarm(){
 
         if(alarms[i].hour == date.getHours() && alarms[i].min==date.getMinutes() && alarms[i].sec==date.getSeconds() ){
             console.log('alarms up');
+            showNotification('alarms up');
             playSound();
+
 
             
             
